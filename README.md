@@ -35,3 +35,10 @@ One of many problems faced at the time of disaster is to gather real-time needs 
 
 
  ![](/images/architecture.png)
+
+
+### Run the code
+1. Run the python script `gatherTweetsWithHashtag.py` under the section code in the repository. It will start gathering the tweets with those hashtags and will store in the csv file.
+2. Take The csv file and run the notebook [`Call for Code`](https://github.com/Neha-Setia/CallForCode/blob/master/code/Call_for_Code.ipynb)on the watson studio, using the configuration file under `configuration folder`. Follow [Query Knowledge Graph code pattern](https://github.com/IBM/query-knowledge-base-with-domain-specific-documents/blob/master/README.md).
+3. Take the [NodeRed Flow](https://github.com/IBM/query-knowledge-base-with-domain-specific-documents/tree/master/node-red-flow). Create a Node-Red Application. Follow [Orchestrate Node-Red flow]( `https://developer.ibm.com/code/patterns/orchestrate-data-science-workflows-using-node-red/`)
+4. Run the application.
